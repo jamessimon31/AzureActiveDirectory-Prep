@@ -7,7 +7,7 @@ In this lab, you will set up a **Windows Server 2022 Domain Controller** and a *
 
 ## Network Diagram 
 
-<img width="885" height="601" alt="image" src="https://github.com/user-attachments/assets/a04e3068-433b-4dc5-b361-dcc5bf794c42" />
+<img width="733" height="595" alt="image" src="https://github.com/user-attachments/assets/a628b8b5-203b-4bd1-9a07-f7f2b14838fc" />
 
 
 ---
@@ -122,3 +122,19 @@ In this lab, you will set up a **Windows Server 2022 Domain Controller** and a *
 3. Run:
    ```powershell
    ping <DC-1 Private IP>
+   ```
+
+   ---
+
+### Step 10: Verify DNS Configuration
+
+1. Open PowerShell on Client-1
+   
+2. Run: ``ipconfig /all``
+   
+3. Confirm DNS Server Matches DC-1s Private IP
+   
+
+---
+
+### Continue to [**Part 2-Deploying Active Directory**](www.google.com) 

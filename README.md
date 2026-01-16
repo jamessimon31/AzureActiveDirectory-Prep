@@ -1,7 +1,6 @@
-# Azure Active Directory Lab: Domain Controller & Client Setup
-
+# Azure Active Directory Lab: Prepuration and Infrastructure 
 ## Overview
-In this lab, you will set up a **Windows Server 2022 Domain Controller** and a **Windows 10 client** in Microsoft Azure. These virtual machines will be reused in future Active Directory labs.
+In this part of the lab, you will set up a **Windows Server 2022 Domain Controller** and a **Windows 10 client** in Microsoft Azure. These virtual machines will be reused in future Active Directory labs.
 
 ---
 

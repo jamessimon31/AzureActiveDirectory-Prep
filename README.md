@@ -136,4 +136,4 @@ In this part of the lab, you will set up a **Windows Server 2022 Domain Controll
 
 ---
 
-### Continue to [**Part 2-Deploying Active Directory**](www.google.com) 
+### Continue to [**Part 2-Deploying Active Directory**](https://github.com/jamessimon31/AzureActiveDirectory-Deploying)

@@ -5,9 +5,10 @@ In this lab, you will set up a **Windows Server 2022 Domain Controller** and a *
 
 ---
 
-## Network Diagram (Optional)
+## Network Diagram 
 
-![Azure Network Diagram](screenshots/network-diagram.png)
+<img width="885" height="601" alt="image" src="https://github.com/user-attachments/assets/a04e3068-433b-4dc5-b361-dcc5bf794c42" />
+
 
 ---
 

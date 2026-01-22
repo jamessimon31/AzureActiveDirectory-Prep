@@ -15,17 +15,18 @@ In this part of the lab, you will set up a **Windows Server 2022 Domain Controll
 
 ### Step 1: Create a Resource Group
 
-![Create Resource Group](screenshots/create-resource-group.png)
+<img width="1186" height="575" alt="image" src="https://github.com/user-attachments/assets/7199188b-45d2-47f9-be8d-5abe00bfe6f1" />
+
 
 1. Sign in to the **Azure Portal**
 2. Create a new **Resource Group**
-3. Choose a region and name it (e.g., `AD-Lab-RG`)
+3. Choose a region and name it (e.g., `ActiveDirectoryLab`)
 
 ---
 
 ### Step 2: Create a Virtual Network and Subnet
 
-![Create Virtual Network](screenshots/create-vnet.png)
+<img width="1363" height="982" alt="image" src="https://github.com/user-attachments/assets/3f698fc1-a809-447b-a570-377c6b6f8901" />
 
 1. Create a **Virtual Network (VNet)**
 2. Create a **Subnet**
@@ -35,8 +36,6 @@ In this part of the lab, you will set up a **Windows Server 2022 Domain Controll
 
 ### Step 3: Create the Domain Controller VM (DC-1)
 
-![Create DC-1 VM](screenshots/create-dc1-vm.png)
-
 1. Create a new **Virtual Machine**
 2. Use the following settings:
    - **VM Name:** DC-1
@@ -44,6 +43,9 @@ In this part of the lab, you will set up a **Windows Server 2022 Domain Controll
    - **Username:** labuser
    - **Password:** Cyberlab123!
 3. Place the VM in the same **Resource Group**, **Region**, and **VNet**
+
+   <img width="916" height="785" alt="image" src="https://github.com/user-attachments/assets/39cb001a-54c9-4e64-9b0b-5fa680707952" />
+
 4. Complete the deployment
 
 ---

@@ -15,7 +15,7 @@ In this part of the lab, you will set up a **Windows Server 2022 Domain Controll
 
 ### Step 1: Create a Resource Group
 
-<img width="1186" height="575" alt="image" src="https://github.com/user-attachments/assets/7199188b-45d2-47f9-be8d-5abe00bfe6f1" />
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/7199188b-45d2-47f9-be8d-5abe00bfe6f1" />
 
 
 1. Sign in to the **Azure Portal**
@@ -26,7 +26,7 @@ In this part of the lab, you will set up a **Windows Server 2022 Domain Controll
 
 ### Step 2: Create a Virtual Network and Subnet
 
-<img width="1363" height="982" alt="image" src="https://github.com/user-attachments/assets/3f698fc1-a809-447b-a570-377c6b6f8901" />
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/3f698fc1-a809-447b-a570-377c6b6f8901" />
 
 1. Create a **Virtual Network (VNet)**
 2. Create a **Subnet**
@@ -44,7 +44,7 @@ In this part of the lab, you will set up a **Windows Server 2022 Domain Controll
    - **Password:** Cyberlab123!
 3. Place the VM in the same **Resource Group**, **Region**, and **VNet**
 
-   <img width="916" height="785" alt="image" src="https://github.com/user-attachments/assets/39cb001a-54c9-4e64-9b0b-5fa680707952" />
+   <img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/39cb001a-54c9-4e64-9b0b-5fa680707952" />
 
 4. Complete the deployment
 
@@ -52,12 +52,14 @@ In this part of the lab, you will set up a **Windows Server 2022 Domain Controll
 
 ### Step 4: Set DC-1 Private IP Address to Static
 
-![Set Static Private IP](screenshots/set-static-ip-dc1.png)
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/809b2fb5-194e-4b77-b3b0-a87cfe51f8c2" />
 
 1. Go to **DC-1 → Networking → Network Interface**
 2. Open **IP configurations**
 3. Change **Private IP** from Dynamic to **Static**
 4. Save changes
+
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/82d57b79-1480-4d8f-b1eb-b2180582fb89" />
 
 ---
 
@@ -67,10 +69,18 @@ In this part of the lab, you will set up a **Windows Server 2022 Domain Controll
 
 1. Log into **DC-1**
 2. Open **Windows Defender Firewall**
+
+   <img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/f2b9421a-34f0-40e9-8adf-8aee76e7c90b" />
+
 3. Turn off firewall for:
    - Domain
    - Private
    - Public
+
+     
+  
+   <img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/a0dc82ca-319a-420c-97b6-aaaf41b262dd" />
+
 
 > ⚠️ This is for lab testing only
 
@@ -139,3 +149,4 @@ In this part of the lab, you will set up a **Windows Server 2022 Domain Controll
 ---
 
 ### Continue to [**Part 2-Deploying Active Directory**](https://github.com/jamessimon31/AzureActiveDirectory-Deploying)
+

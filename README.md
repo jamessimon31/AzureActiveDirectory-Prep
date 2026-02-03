@@ -90,7 +90,8 @@ In this part of the lab, you will set up a **Windows Server 2022 Domain Controll
 
 ### Step 6: Create the Client VM (Client-1)
 
-![Create Client-1 VM](screenshots/create-client1-vm.png)
+<img width="468" height="278" alt="image" src="https://github.com/user-attachments/assets/d5a0b12a-8c13-4bfb-80e4-148e352f1bc4" />
+
 
 1. Create a new **Virtual Machine**
 2. Use the following settings:
@@ -101,16 +102,25 @@ In this part of the lab, you will set up a **Windows Server 2022 Domain Controll
 3. Ensure it is in:
    - The **same region**
    - The **same Virtual Network** as DC-1
+     
+<img width="468" height="231" alt="image" src="https://github.com/user-attachments/assets/6d4188c1-b3cd-4d58-9129-a6eacb568dc8" />
 
 ---
 
 ### Step 7: Configure Client-1 DNS Settings
 
-![Client-1 DNS Settings](screenshots/client1-dns-settings.png)
+
+<img width="440" height="221" alt="image" src="https://github.com/user-attachments/assets/13524e2b-1296-4cdd-87c9-ebc10f52e44d" />
+
 
 1. Go to **Client-1 → Networking → Network Interface**
 2. Open **DNS Servers**
 3. Select **Custom**
+   
+<img width="451" height="215" alt="image" src="https://github.com/user-attachments/assets/5a20d500-385f-481a-90ad-246b04723326" />
+
+<img width="468" height="262" alt="image" src="https://github.com/user-attachments/assets/cf037625-451c-4913-a0f9-46953a3da1c0" />
+
 4. Enter **DC-1’s Private IP Address**
 5. Save changes
 
@@ -118,7 +128,7 @@ In this part of the lab, you will set up a **Windows Server 2022 Domain Controll
 
 ### Step 8: Restart Client-1
 
-![Restart Client-1](screenshots/restart-client1.png)
+<img width="468" height="183" alt="image" src="https://github.com/user-attachments/assets/afff4b33-23ef-4dd5-ad01-57eb8fe686b3" />
 
 1. Restart **Client-1** from the Azure Portal
 
@@ -126,7 +136,7 @@ In this part of the lab, you will set up a **Windows Server 2022 Domain Controll
 
 ### Step 9: Test Network Connectivity
 
-![Ping DC-1](screenshots/ping-dc1.png)
+<img width="404" height="228" alt="image" src="https://github.com/user-attachments/assets/dacb00a3-3255-41e1-814c-6a4eb0363b30" />
 
 1. Log into **Client-1**
 2. Open **PowerShell**
@@ -138,6 +148,8 @@ In this part of the lab, you will set up a **Windows Server 2022 Domain Controll
    ---
 
 ### Step 10: Verify DNS Configuration
+
+<img width="468" height="366" alt="image" src="https://github.com/user-attachments/assets/c163f24d-3e2e-4853-b0a4-62a0901422c8" />
 
 1. Open PowerShell on Client-1
    
